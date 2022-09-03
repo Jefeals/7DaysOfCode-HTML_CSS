@@ -1,0 +1,26 @@
+.metricas {
+    display: flex;
+    justify-content: center;
+    margin: 5em 2em 10em 3em;
+}
+
+.metricas__resultados {
+    margin-right: 1em;
+    width: 25%;
+}
+
+.metricas__resultados-numero {
+    font-size: 60px;
+    color: var(--vermelho-vinho);
+}
+
+.metricas__resultados-tipo {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1em 0;
+    color: var(--preto-titulo-metricas);
+}
+
+.metricas__resultados-texto {
+    color: var(--cor-fonte);
+}

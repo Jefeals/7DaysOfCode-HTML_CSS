@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    margin: 1em 2em 1em 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-navbar__logo, .container__log {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo-titulo {
+    margin-left: 0.3em;
+}
+
+.navbar__opcoes {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar__opcoes-itens {
+    margin-right: 2em;
+}
+
+.navbar__opcoes-link {
+    text-decoration: none;
+    color: var(--cor-fonte);
+    font-weight: 500;
+}
+
+.navbar__opcoes-link-cadastro {
+    margin-left: 2em;
+    text-decoration: none;
+    background-color: var(--vermelho-vinho);
+    color: var(--branco);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    font-weight: 500;
+}
